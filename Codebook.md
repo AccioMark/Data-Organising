@@ -36,5 +36,5 @@ Dataset downloaded and stored in  ```UCI HAR Dataset```.
 
 **From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject**  
 * ```FinalData``` (```180``` rows, ```88``` columns) is created by summarizing ```cleanData``` taking the means of each variable for each ```activity``` and each ```subject```, after grouped by ```activity``` and ```subject```.  
-* Export ```FinalData``` into ```FinalData.txt``` file.
+* Export ```FinalData``` into ```TidyData.txt``` file.
 
